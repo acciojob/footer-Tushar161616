@@ -1,1 +1,67 @@
 /* your code here */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Lato&family=Roboto:wght@300&family=Rubik+Puddles&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Roboto;
+}
+footer{
+	background-color:rgb(0,0,0);
+}
+body{
+	
+	height:345px;
+	
+}
+.logo_name{
+	color:white;
+	font-size:31px;
+}
+.icons>a>img{
+	height:40px;
+	width:40px;
+	padding:10px;
+}
+.media-icons{
+	display:flex;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	padding:20px
+}
+.link-boxes{
+	color:white;
+	display:flex;
+	justify-content:space-evenly
+	
+}
+li{
+	font-size:15px;
+	text-decoration:none;
+	list-style-type:none;
+	padding:8px;
+	padding-bottom:8px;
+	
+}
+h3{
+	text-decoration:underline;
+	color:white;
+}
+.bottom-details{
+	color:white;
+	background-color:rgb(44,48,58);
+	margin-top:30px;
+	padding:16px
+}
+#span1{
+	padding-left:31px;
+	padding-top:10px;
+	padding-bottom:20px;
+	
+}
+#span2{
+	padding-left:300px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
